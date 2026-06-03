@@ -9,7 +9,7 @@ interface AuthState {
   clearAuth: () => void;
   isAuthenticated: () => boolean;
 }
-
+ 
 export const useAuthStore = create<AuthState>()(
   persist(
     (set, get) => ({
