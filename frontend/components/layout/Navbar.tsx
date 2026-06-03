@@ -18,13 +18,17 @@ export default function Navbar() {
   return (
     <nav className="relative w-full z-50 bg-background/50 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
-          <div className="bg-white/95 p-1.5 rounded-lg shadow-sm">
-            <Image src="/images/logo-transparent.png" alt="AWS Logo" width={75} height={30} className="object-contain" />
+        <Link href="/" className="flex items-center gap-3.5 group">
+          <div className="bg-white p-2 rounded-xl shadow-[0_0_20px_rgba(255,255,255,0.1)] border border-white/10 transition-all duration-300 group-hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] group-hover:scale-[1.02]">
+            <Image src="/images/logo-transparent.png" alt="AWS Logo" width={95} height={38} className="object-contain" priority />
           </div>
-          <div className="flex flex-col">
-            <span className="text-[13px] font-black text-white leading-tight uppercase tracking-widest">PT. AWS</span>
-            <span className="text-[9px] text-primary font-bold tracking-[0.2em] uppercase">SmartTalent</span>
+          <div className="flex flex-col justify-center">
+            <h2 className="text-base font-black text-white uppercase tracking-[0.15em] leading-tight">
+              PT. AWS
+            </h2>
+            <p className="text-[10px] text-primary font-bold tracking-[0.3em] uppercase mt-0.5">
+              SmartTalent
+            </p>
           </div>
         </Link>
         <div className="hidden lg:flex gap-8 text-[12px] font-bold uppercase tracking-widest text-white/70">
