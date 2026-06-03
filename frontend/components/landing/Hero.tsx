@@ -26,12 +26,12 @@ export default function Hero() {
               </span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-black leading-[1.1] mb-8">
+            <h2 className="text-5xl md:text-7xl font-black leading-[1.1] mb-8">
               Membangun Masa Depan <br />
               Sumber Daya Manusia <br />
               Indonesia Yang <br />
               <span className="text-primary italic">Profesional</span>
-            </h1>
+            </h2>
             
             <p className="text-lg text-white/50 max-w-lg mb-10 leading-relaxed">
               Kami menyediakan solusi SDM mutakhir untuk membantu bisnis Anda berkembang dengan talenta dan sistem yang tepat. 
