@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav className="relative w-full z-50 bg-background/50 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <Image src="/images/logo.png" alt="AWS Logo" width={100} height={40} className="object-contain" />
+          <Image src="/images/logo-transparent.png" alt="AWS Logo" width={100} height={40} className="object-contain" />
         </Link>
         <div className="hidden lg:flex gap-8 text-[12px] font-bold uppercase tracking-widest text-white/70">
           <Link href="/about" className="hover:text-primary transition-colors">Tentang Kami</Link>
