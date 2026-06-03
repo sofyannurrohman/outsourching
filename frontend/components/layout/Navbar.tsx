@@ -19,8 +19,8 @@ export default function Navbar() {
     <nav className="relative w-full z-50 bg-background/50 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3.5 group">
-          <div className="bg-white p-2 rounded-xl shadow-[0_0_20px_rgba(255,255,255,0.1)] border border-white/10 transition-all duration-300 group-hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] group-hover:scale-[1.02]">
-            <Image src="/images/logoaws.png" alt="AWS Logo" width={150} height={50} className="object-contain" priority />
+          <div className="bg-white p-1 rounded-xl shadow-[0_0_20px_rgba(255,255,255,0.1)] border border-white/10 transition-all duration-300 group-hover:shadow-[0_0_25px_rgba(212,175,55,0.2)] group-hover:scale-[1.02]">
+            <Image src="/images/logoaws.png" alt="AWS Logo" width={300} height={50} className="object-contain" priority />
           </div>
           <div className="flex flex-col justify-center">
             <h2 className="text-base font-black text-white uppercase tracking-[0.15em] leading-tight">
