@@ -14,9 +14,9 @@ export default function AuthLayout({
       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#D4AF37]/5 blur-[120px] rounded-full translate-x-1/2 translate-y-1/2 pointer-events-none" />
 
       {/* Header */}
-      <header className="p-8 relative z-10">
+      <header className="p-10 relative z-10">
         <Link href="/" className="flex items-center justify-center lg:justify-start">
-          <Image src="/images/logo.png" alt="Logo" width={150} height={50} className="object-contain" />
+          <Image src="/images/logo.png" alt="Logo" width={300} height={300} className="object-contain" />
         </Link>
       </header>
 
