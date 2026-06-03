@@ -82,7 +82,7 @@ export default function Hero() {
             >
               <div className="flex items-center gap-4 mb-2">
                 <div className="w-1.5 h-6 gold-gradient rounded-full" />
-                <span className="text-xs font-bold uppercase tracking-widest text-primary">Sukses</span>
+                <span className="text-xs font-bold uppercase tracking-widest text-primary">William</span>
               </div>
               <p className="text-sm font-medium text-white/80 italic">
                 "Mitra Rekrutmen Terbaik 2024"
