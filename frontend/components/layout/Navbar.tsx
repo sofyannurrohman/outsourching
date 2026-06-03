@@ -18,8 +18,14 @@ export default function Navbar() {
   return (
     <nav className="relative w-full z-50 bg-background/50 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center">
-          <Image src="/images/logo-transparent.png" alt="AWS Logo" width={100} height={40} className="object-contain" />
+        <Link href="/" className="flex items-center gap-3">
+          <div className="bg-white/95 p-1.5 rounded-lg shadow-sm">
+            <Image src="/images/logo-transparent.png" alt="AWS Logo" width={75} height={30} className="object-contain" />
+          </div>
+          <div className="flex flex-col">
+            <span className="text-[13px] font-black text-white leading-tight uppercase tracking-widest">PT. AWS</span>
+            <span className="text-[9px] text-primary font-bold tracking-[0.2em] uppercase">SmartTalent</span>
+          </div>
         </Link>
         <div className="hidden lg:flex gap-8 text-[12px] font-bold uppercase tracking-widest text-white/70">
           <Link href="/about" className="hover:text-primary transition-colors">Tentang Kami</Link>
