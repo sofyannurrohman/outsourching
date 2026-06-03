@@ -53,7 +53,7 @@ export default function Sidebar({ role }: SidebarProps) {
     <aside className="w-64 bg-[#050505] border-r border-white/5 flex flex-col fixed h-screen z-40">
       <div className="p-8">
         <Link href="/" className="flex items-center">
-          <Image src="/images/logo.png" alt="Logo" width={120} height={40} className="object-contain" />
+          <Image src="/images/logoaws.png" alt="Logo" width={120} height={40} className="object-contain" />
         </Link>
         <div className="mt-2 text-[10px] uppercase font-bold tracking-[0.3em] text-white/20">
           {role} Dashboard

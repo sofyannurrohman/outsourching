@@ -16,7 +16,7 @@ export default function AuthLayout({
       {/* Header */}
       <header className="p-10 relative z-10">
         <Link href="/" className="flex items-center justify-center lg:justify-start">
-          <Image src="/images/logo.png" alt="Logo" width={300} height={300} className="object-contain" />
+          <Image src="/images/logoaws.png" alt="Logo" width={300} height={300} className="object-contain" />
         </Link>
       </header>
 
