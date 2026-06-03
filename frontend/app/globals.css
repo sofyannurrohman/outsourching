@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #051121;
+  --color-foreground: #FFFFFF;
+  --color-primary: #D4AF37;
+  --color-secondary: #0A1F3D;
+  --color-muted: #6B7280;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --font-outfit: "Outfit", sans-serif;
+}
+
+@utility gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F2D785 50%, #D4AF37 100%);
+}
+
+@utility btn-gold {
+  @apply gold-gradient text-black font-bold px-8 py-3 rounded-xl transition-all duration-300 shadow-lg shadow-primary/20;
+  &:hover { 
+    filter: brightness(1.1); 
+    transform: translateY(-2px);
+    @apply shadow-lg shadow-primary/40;
+  }
+  &:active { transform: translateY(0) scale(0.98); }
+}
+
+@utility btn-outline {
+  @apply border-2 border-primary/40 text-primary font-bold px-8 py-3 rounded-xl transition-all duration-300;
+  &:hover { 
+    @apply border-primary bg-primary/10;
+    transform: translateY(-2px);
+  }
+}
+
+@utility gold-bracket-tl {
+  @apply absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-primary/60;
+}
+
+@utility gold-bracket-br {
+  @apply absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-primary/60;
+}
+
+@utility aws-card {
+  @apply bg-white transition-all duration-500 rounded-[2rem] border border-transparent shadow-xl h-full;
+  &:hover { 
+    @apply -translate-y-2 border-primary/10;
+    box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-outfit);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply tracking-tight;
+}

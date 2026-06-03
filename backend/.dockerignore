@@ -1,0 +1,8 @@
+.git
+.gitignore
+*.md
+vendor
+Dockerfile
+.dockerignore
+.env
+uploads

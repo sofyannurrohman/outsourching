@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS talents;
+DROP TYPE IF EXISTS pool_status;
+DROP TYPE IF EXISTS gender_type;
